@@ -1,10 +1,5 @@
-# Swift_Calculator
+# Swift Calculator Screenshots
 
-![](https://github.com/magnesiumm/Calculator/blob/master/Images/SC1.png)
-
-![](https://github.com/magnesiumm/Calculator/blob/master/Images/SC2.png)
-
-
-Solarized dark             |  Solarized Ocean
+First Menu             |  Second Menu
 :-------------------------:|:-------------------------:
 ![](https://github.com/magnesiumm/Calculator/blob/master/Images/SC1.png)  |  ![](https://github.com/magnesiumm/Calculator/blob/master/Images/SC2.png)
