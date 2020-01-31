@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7573B2E23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.42 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C7573B2C23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.42 AM.png */; };
-		C7573B2F23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.49 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C7573B2D23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.49 AM.png */; };
 		C78A82BB2384354900F27C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A82BA2384354900F27C7D /* AppDelegate.swift */; };
 		C78A82BD2384354900F27C7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A82BC2384354900F27C7D /* SceneDelegate.swift */; };
 		C78A82BF2384354900F27C7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A82BE2384354900F27C7D /* ViewController.swift */; };
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7573B2C23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.42 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-01-31 at 10.07.42 AM.png"; path = "../../Screen Shot 2020-01-31 at 10.07.42 AM.png"; sourceTree = "<group>"; };
-		C7573B2D23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.49 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-01-31 at 10.07.49 AM.png"; path = "../../Screen Shot 2020-01-31 at 10.07.49 AM.png"; sourceTree = "<group>"; };
 		C78A82B72384354900F27C7D /* Six.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Six.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A82BA2384354900F27C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78A82BC2384354900F27C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,15 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7573B2B23E47BAF00BDB63F /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				C7573B2C23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.42 AM.png */,
-				C7573B2D23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.49 AM.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		C78A82AE2384354900F27C7D = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +101,6 @@
 		C78A82B92384354900F27C7D /* New_Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				C7573B2B23E47BAF00BDB63F /* Images */,
 				C78A82BA2384354900F27C7D /* AppDelegate.swift */,
 				C78A82BC2384354900F27C7D /* SceneDelegate.swift */,
 				C78A82BE2384354900F27C7D /* ViewController.swift */,
@@ -251,8 +237,6 @@
 			files = (
 				C78A82C72384354B00F27C7D /* LaunchScreen.storyboard in Resources */,
 				C78A82C42384354B00F27C7D /* Assets.xcassets in Resources */,
-				C7573B2E23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.42 AM.png in Resources */,
-				C7573B2F23E47BD900BDB63F /* Screen Shot 2020-01-31 at 10.07.49 AM.png in Resources */,
 				C78A82C22384354900F27C7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
