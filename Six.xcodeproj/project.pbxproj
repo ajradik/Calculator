@@ -94,7 +94,6 @@
 		C78A82AE2384354900F27C7D = {
 			isa = PBXGroup;
 			children = (
-				C7573B2B23E47BAF00BDB63F /* Images */,
 				C78A82B92384354900F27C7D /* New_Calculator */,
 				C78A82D02384354B00F27C7D /* New_CalculatorTests */,
 				C78A82DB2384354B00F27C7D /* New_CalculatorUITests */,
@@ -115,6 +114,7 @@
 		C78A82B92384354900F27C7D /* New_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C7573B2B23E47BAF00BDB63F /* Images */,
 				C78A82BA2384354900F27C7D /* AppDelegate.swift */,
 				C78A82BC2384354900F27C7D /* SceneDelegate.swift */,
 				C78A82BE2384354900F27C7D /* ViewController.swift */,
