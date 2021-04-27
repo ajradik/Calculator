@@ -18,6 +18,7 @@
 		C78A82DD2384354C00F27C7D /* New_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A82DC2384354C00F27C7D /* New_CalculatorUITests.swift */; };
 		C78FFF982386368C001B887F /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FFF972386368C001B887F /* CalculatorLogic.swift */; };
 		C79B626E263889E600854176 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79B626D263889E600854176 /* LexendDeca-Regular.ttf */; };
+		C79B627026388C9600854176 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B626F26388C9600854176 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C78A82DE2384354C00F27C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78FFF972386368C001B887F /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		C79B626D263889E600854176 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		C79B626F26388C9600854176 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		C78A82B92384354900F27C7D /* New_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C79B626F26388C9600854176 /* UIButtonExtension.swift */,
 				C79B626D263889E600854176 /* LexendDeca-Regular.ttf */,
 				C78A82BA2384354900F27C7D /* AppDelegate.swift */,
 				C78A82BC2384354900F27C7D /* SceneDelegate.swift */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78FFF982386368C001B887F /* CalculatorLogic.swift in Sources */,
+				C79B627026388C9600854176 /* UIButtonExtension.swift in Sources */,
 				C78A82BF2384354900F27C7D /* ViewController.swift in Sources */,
 				C78A82BB2384354900F27C7D /* AppDelegate.swift in Sources */,
 				C78A82BD2384354900F27C7D /* SceneDelegate.swift in Sources */,

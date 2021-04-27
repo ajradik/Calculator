@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func digitButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         infixExpressionString += sender.titleLabel!.text!
         
         if (Double(sender.titleLabel!.text!) == nil && sender.titleLabel?.text != text.decimal.rawValue) || sender.titleLabel?.text == text.negative.rawValue {
@@ -45,19 +44,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func opButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         infixExpressionString += sender.titleLabel!.text!
         updateBoxes()
     }
     
     @IBAction func clearButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         infixExpressionString = text.emptyString.rawValue
         updateBoxes()
     }
     
     @IBAction func deleteButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         if infixExpressionString.count > 0 {
             infixExpressionString = String(infixExpressionString.prefix(infixExpressionString.count-1))
             updateBoxes()
@@ -65,7 +61,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equalsButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
        
         if infixExpressionString.count == 0 {
             return
@@ -96,7 +91,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func memoryAddButton(_ sender: Any) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         if result != nil {
             memory = result
             return
@@ -106,7 +100,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func memoryRecallButton(_ sender: Any) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         if memory != nil {
             infixExpressionString += "\(memory!)"
             updateBoxes()
@@ -117,7 +110,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func secondMenuButton(_ sender: UIButton) {
-        UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+        
         switch sender.titleLabel?.text {
             case text.first.rawValue:
                 openFirstMenu()
