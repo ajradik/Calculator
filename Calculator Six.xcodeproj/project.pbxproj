@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		C728A1B223E4830E0037F18D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
-		C78A82B72384354900F27C7D /* Six Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Six Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A82B72384354900F27C7D /* Calculator Six.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator Six.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A82BA2384354900F27C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78A82BC2384354900F27C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C78A82BE2384354900F27C7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		C78A82C32384354B00F27C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78A82C62384354B00F27C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78A82C82384354B00F27C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C78A82CD2384354B00F27C7D /* Six CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Six CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A82CD2384354B00F27C7D /* Calculator SixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator SixTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A82D12384354B00F27C7D /* New_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_CalculatorTests.swift; sourceTree = "<group>"; };
 		C78A82D32384354B00F27C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C78A82D82384354B00F27C7D /* Six CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Six CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A82D82384354B00F27C7D /* Calculator SixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator SixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A82DC2384354C00F27C7D /* New_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_CalculatorUITests.swift; sourceTree = "<group>"; };
 		C78A82DE2384354C00F27C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78FFF972386368C001B887F /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		C78A82B82384354900F27C7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C78A82B72384354900F27C7D /* Six Calculator.app */,
-				C78A82CD2384354B00F27C7D /* Six CalculatorTests.xctest */,
-				C78A82D82384354B00F27C7D /* Six CalculatorUITests.xctest */,
+				C78A82B72384354900F27C7D /* Calculator Six.app */,
+				C78A82CD2384354B00F27C7D /* Calculator SixTests.xctest */,
+				C78A82D82384354B00F27C7D /* Calculator SixUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C78A82B62384354900F27C7D /* Six Calculator */ = {
+		C78A82B62384354900F27C7D /* Calculator Six */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C78A82E12384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six Calculator" */;
+			buildConfigurationList = C78A82E12384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator Six" */;
 			buildPhases = (
 				C78A82B32384354900F27C7D /* Sources */,
 				C78A82B42384354900F27C7D /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "Six Calculator";
+			name = "Calculator Six";
 			productName = New_Calculator;
-			productReference = C78A82B72384354900F27C7D /* Six Calculator.app */;
+			productReference = C78A82B72384354900F27C7D /* Calculator Six.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C78A82CC2384354B00F27C7D /* Six CalculatorTests */ = {
+		C78A82CC2384354B00F27C7D /* Calculator SixTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C78A82E42384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six CalculatorTests" */;
+			buildConfigurationList = C78A82E42384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator SixTests" */;
 			buildPhases = (
 				C78A82C92384354B00F27C7D /* Sources */,
 				C78A82CA2384354B00F27C7D /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				C78A82CF2384354B00F27C7D /* PBXTargetDependency */,
 			);
-			name = "Six CalculatorTests";
+			name = "Calculator SixTests";
 			productName = New_CalculatorTests;
-			productReference = C78A82CD2384354B00F27C7D /* Six CalculatorTests.xctest */;
+			productReference = C78A82CD2384354B00F27C7D /* Calculator SixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C78A82D72384354B00F27C7D /* Six CalculatorUITests */ = {
+		C78A82D72384354B00F27C7D /* Calculator SixUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C78A82E72384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six CalculatorUITests" */;
+			buildConfigurationList = C78A82E72384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator SixUITests" */;
 			buildPhases = (
 				C78A82D42384354B00F27C7D /* Sources */,
 				C78A82D52384354B00F27C7D /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				C78A82DA2384354B00F27C7D /* PBXTargetDependency */,
 			);
-			name = "Six CalculatorUITests";
+			name = "Calculator SixUITests";
 			productName = New_CalculatorUITests;
-			productReference = C78A82D82384354B00F27C7D /* Six CalculatorUITests.xctest */;
+			productReference = C78A82D82384354B00F27C7D /* Calculator SixUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C78A82B22384354900F27C7D /* Build configuration list for PBXProject "Six Calculator" */;
+			buildConfigurationList = C78A82B22384354900F27C7D /* Build configuration list for PBXProject "Calculator Six" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C78A82B62384354900F27C7D /* Six Calculator */,
-				C78A82CC2384354B00F27C7D /* Six CalculatorTests */,
-				C78A82D72384354B00F27C7D /* Six CalculatorUITests */,
+				C78A82B62384354900F27C7D /* Calculator Six */,
+				C78A82CC2384354B00F27C7D /* Calculator SixTests */,
+				C78A82D72384354B00F27C7D /* Calculator SixUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		C78A82CF2384354B00F27C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C78A82B62384354900F27C7D /* Six Calculator */;
+			target = C78A82B62384354900F27C7D /* Calculator Six */;
 			targetProxy = C78A82CE2384354B00F27C7D /* PBXContainerItemProxy */;
 		};
 		C78A82DA2384354B00F27C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C78A82B62384354900F27C7D /* Six Calculator */;
+			target = C78A82B62384354900F27C7D /* Calculator Six */;
 			targetProxy = C78A82D92384354B00F27C7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Six Calculator.app/Six Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator Six.app/Calculator Six";
 			};
 			name = Debug;
 		};
@@ -524,7 +524,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Six Calculator.app/Six Calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator Six.app/Calculator Six";
 			};
 			name = Release;
 		};
@@ -571,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C78A82B22384354900F27C7D /* Build configuration list for PBXProject "Six Calculator" */ = {
+		C78A82B22384354900F27C7D /* Build configuration list for PBXProject "Calculator Six" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C78A82DF2384354C00F27C7D /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C78A82E12384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six Calculator" */ = {
+		C78A82E12384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator Six" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C78A82E22384354C00F27C7D /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C78A82E42384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six CalculatorTests" */ = {
+		C78A82E42384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator SixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C78A82E52384354C00F27C7D /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C78A82E72384354C00F27C7D /* Build configuration list for PBXNativeTarget "Six CalculatorUITests" */ = {
+		C78A82E72384354C00F27C7D /* Build configuration list for PBXNativeTarget "Calculator SixUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C78A82E82384354C00F27C7D /* Debug */,
